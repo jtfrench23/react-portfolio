@@ -1,11 +1,12 @@
 .nav-bar {
     background-color: #181818;
-    width: 150px;
+    width: 100px;
     height: 100%;
     position:absolute;
     top: 0;
     z-index: 3;
     min-height: 500px;
+    margin-right: 5px;
     .logo{
         display: block;
         padding: 8px 0px;

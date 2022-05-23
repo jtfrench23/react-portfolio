@@ -1,0 +1,78 @@
+.home-page{
+    margin-left: 200px;
+    animation: fadeIn 1s backwards;
+    h1{
+        color: white;
+        font-size: 50px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+        
+        &::before{
+            content: '<h1>';
+            font-family: "La Belle Aurore", cursive;
+            font-size: 18px;
+            color: red;
+            position: absolute;
+            margin: -20px;
+            margin-left: 15px;
+            opacity: .6;
+            animation: fadeIn 1.5s backwards;
+        }
+        &::after{
+            content:'<h1/>';
+            font-family: "La Belle Aurore", cursive;
+            font-size: 18px;
+            color: red;
+            position: absolute;
+            margin-top: 28px;
+            margin-left: 15px;
+            animation: fadeIn 1.5s backwards;
+            opacity: .6;
+        }
+        img{
+            width: 32px;
+            margin-left: 15px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+
+        }
+    }
+    h2{
+        color: #8d8d8d;
+        font-weight: 400;
+        font-size: 15px;
+        font-family: sans-serif;
+        letter-spacing: 3px;
+        animation: fadeIn .5s backwards;
+    }
+    .flat-button{
+        color: red;
+        font-size:15px;
+        font-weight: 400;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 20px;
+        border: 1px solid black;
+        margin-top: 25px;
+        float: left;
+        animation: fadeIn 1s 1.3s backwards;
+        white-space: nowrap;
+
+        &:hover{
+            background: red;
+            color: #333;
+        }
+    }
+    .text-zone{
+            left: 10%;
+            top: 50%;
+            transform: translateY(50%);
+            width: 40%;
+            max-height: 90%
+        
+        }
+}
