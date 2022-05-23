@@ -8,16 +8,16 @@
     min-width: 10px;
 }
 
-.text-animate-hover {
-    min-width: 10px;
-    display: inline-block;
-    animation-fill-mode: both;
+// .text-animate-hover {
+//     min-width: 10px;
+//     display: inline-block;
+//     animation-fill-mode: both;
 
-    &:hover {
-    animation: rubberBand 1s;
-    color: #ffd700;
-    }
-}
+//     &:hover {
+//     animation: rubberBand 1s;
+//     color: red;
+//     }
+// }
 
 @for $i from 1 through 45 {
     .text-animate._#{$i} {
