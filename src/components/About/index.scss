@@ -1,6 +1,7 @@
 .text-zone{
   display: block;
-  margin-left: 200px;
+  margin-left: 125px;
+  margin-top: 40px;
   color: White;
   p{
     font-size: 20px;
@@ -9,7 +10,7 @@
 .stage-cube-cont {
   width: 50%;
   height: 100%;
-  top: 0;
+  margin-top: -125px;
   padding-top: 18%;
   margin-left: 0;
   position: absolute;

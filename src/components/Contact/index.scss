@@ -36,7 +36,8 @@
   input[type='email'] {
     width: 100%;
     border: 0;
-    background: rgb(110, 110, 110);
+    background: rgb(0, 0, 0);
+    border: 1px solid red;
     height: 50px;
     font-size: 16px;
     color: #fff;
@@ -47,10 +48,11 @@
   textarea {
     width: 100%;
     border: 0;
-    background: rgb(110, 110, 110);
+    background: rgb(0, 0, 0);
+    color: white;
+    border: 1px solid red;
     height: 50px;
     font-size: 16px;
-    color: #fff;
     padding: 20px;
     box-sizing: border-box;
     min-height: 150px;
@@ -71,14 +73,6 @@
     text-align: center;
     margin-right: 10px;
   }
-}
-
-.map-wrap {
-  background: rgba(8, 253, 216, 0.1);
-  float: right;
-  width: 53%;
-  height: 115%;
-  margin-top: -3%;
 }
 
 .leaflet-container {
