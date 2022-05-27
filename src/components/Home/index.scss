@@ -68,11 +68,14 @@
         }
     }
     .text-zone{
-            left: 10%;
+            margin-left: 100px;
             top: 50%;
             transform: translateY(50%);
-            width: 40%;
+            width: 80%;
             max-height: 90%
-        
         }
+    .pictures{
+        margin-left: 50%;
+        width: 25%;
+    }
 }
