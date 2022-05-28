@@ -24,4 +24,6 @@ p{
 }
 .projectsContainer{
     animation: fadeIn 2s 1s backwards;
+    height: 500px;
+    overflow-y: scroll;
 }
