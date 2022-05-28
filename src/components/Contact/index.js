@@ -35,14 +35,14 @@ const Contact = () => {
   return (
     <>
       <div className="container contact-page">
-        <div className="text-zone">
-          <h1>
+        <h1>
             <AnimatedLetters
               letterClass={letterClass}
               strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']}
               idx={15}
             />
           </h1>
+          <div className="text-zone">
           <p>
             I am interested in freelance opportunities, contract to hire, or salaried positions.
             However, if you have other requests or a question, please
