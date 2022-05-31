@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ec9fcdb6.css",
-    "main.js": "/static/js/main.a86ae298.js",
-    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
-    "static/media/natShop.gif": "/static/media/natShop.4d9f26edb7989c37f90f.gif",
-    "static/media/Hnet-image.gif": "/static/media/Hnet-image.59c10381ee8044bc9c52.gif",
-    "static/media/ontrack.gif": "/static/media/ontrack.b7c14420e8b9531bef6c.gif",
-    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/logo_sub.png": "/static/media/logo_sub.240d14b5ed03d5f74663.png",
-    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-s.png": "/static/media/logo-s.0e036521f3923fd5b77f.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/index.html",
-    "main.ec9fcdb6.css.map": "/static/css/main.ec9fcdb6.css.map",
-    "main.a86ae298.js.map": "/static/js/main.a86ae298.js.map",
-    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/react-portfolio/static/css/main.72e1851b.css",
+    "main.js": "/react-portfolio/static/js/main.8c173cd1.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/natShop.gif": "/react-portfolio/static/media/natShop.4d9f26edb7989c37f90f.gif",
+    "static/media/Hnet-image.gif": "/react-portfolio/static/media/Hnet-image.59c10381ee8044bc9c52.gif",
+    "static/media/ontrack.gif": "/react-portfolio/static/media/ontrack.b7c14420e8b9531bef6c.gif",
+    "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/logo_sub.png": "/react-portfolio/static/media/logo_sub.240d14b5ed03d5f74663.png",
+    "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-s.png": "/react-portfolio/static/media/logo-s.0e036521f3923fd5b77f.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.72e1851b.css.map": "/react-portfolio/static/css/main.72e1851b.css.map",
+    "main.8c173cd1.js.map": "/react-portfolio/static/js/main.8c173cd1.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec9fcdb6.css",
-    "static/js/main.a86ae298.js"
+    "static/css/main.72e1851b.css",
+    "static/js/main.8c173cd1.js"
   ]
 }
