@@ -3,6 +3,8 @@ import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import {useState} from 'react';
 import SasquatchGif from '../../assets/gifs/Hnet-image.gif'
+import OnTrackGif from '../../assets/gifs/ontrack.gif'
+import NatShop from '../../assets/gifs/natShop.gif'
 
 const Projects = () => {
     const [letterClass] = useState('text-animate')
@@ -25,10 +27,12 @@ const Projects = () => {
     <div className='projectsContainer'>
         <div className='projectBox'>
             <h2><a href='https://github.com/Schneider-Alex/OnTrack'>OnTrack</a></h2>
+            <img src={OnTrackGif} alt='gif of OnTrack website'/>
             <p>This app is designed for track coaches to keep track of athletes' times in track events as well as post messages/announcements for their team to see.  Athletes can view all of their previous times as well as their teammates' top times and their team's records.  This was a group project where my main role was backend development.  I created the database, constructed many of the sql queries, tested the application for bugs, and made sure data was being passed and displayed properly between the application and the database.</p>
         </div>
         <div className='projectBox'>
             <h2><a href='https://github.com/jtfrench23/nats_store'>French's Boutique</a></h2>
+            <img src={NatShop} alt='gif of French Boutique website'/>
             <p>This is an ecommerce platform that I created for my wife.  I used the Python/Django stack to build this application.  I utilized bootstrap as well as custom css to make the app responsive and visually appealing.  I was the sole developer for this project.</p>
         </div>
         <div className='projectBox'>
