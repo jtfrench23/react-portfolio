@@ -92,3 +92,11 @@ h1{
     transform: rotateX(90deg);
   }
 }
+@media screen and (max-width: 500px) and (min-width: 320px){
+  .container{
+    overflow-y: scroll;
+  }
+  .stage-cube-cont{
+    margin-top: -70px;
+  }
+}

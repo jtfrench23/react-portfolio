@@ -7,9 +7,9 @@ import Loader from 'react-loaders';
 import React from 'react';
 const Home = () => {
     const [letterClass] = useState('text-animate')
-    const nameArrayFirst = ['','','J','o','r','d','a','n']
-    const nameArray = ['r','e','n','c','h']
-    const jobArray = ['w','e','b','','d','e','v','e','l','o','p','e','r','.']
+    const nameArrayFirst = ['','Jordan']
+    const nameArray = [<img src={LogoTitle} alt="devleper" />,'rench']
+    const jobArray = ['w','e','b',' ',' ','developer','.']
     useEffect(() => {
         console.log('works')
     })
@@ -26,16 +26,19 @@ const Home = () => {
                         <span className={`${letterClass} _14`}>'m</span>
 
                         <AnimatedLetters letterClass={letterClass} strArray={nameArrayFirst} idx={15}/>
-                        <img src={LogoTitle} alt="devleper" />
+                        {/* <img src={LogoTitle} alt="devleper" /> */}
                         <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={22}/>
                         <br />
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={32}/>
                     </h1>
+                    <div className='lowerBox'>
                     <h2>
                         Fullstack Developer / Python Ninja / Lifelong Learner
                     </h2>
                     <Link to="/contact" className="flat-button">CONTACT ME</Link>
+                    </div>
                 </div>
+                
             </div>
             <Loader type="pacman" />
             </>
