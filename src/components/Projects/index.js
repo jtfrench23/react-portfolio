@@ -2,7 +2,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import {useState} from 'react';
-
+import SasquatchGif from '../../assets/gifs/Hnet-image.gif'
 
 const Projects = () => {
     const [letterClass] = useState('text-animate')
@@ -33,6 +33,7 @@ const Projects = () => {
         </div>
         <div className='projectBox'>
             <h2><a href='http://18.234.207.197'>Sasquatch Sitings</a></h2>
+            <img src={SasquatchGif} alt='gif of sasquatch sitings website'/>
             <p>This app was created for my exam on Python/Flask for Coding Dojo.  The entire app had to be developed and deployed within 5 hours in order to earn a “Black Belt” which I completed with a perfect score. I used AWS to deploy this application.</p>
         </div>
     </div>

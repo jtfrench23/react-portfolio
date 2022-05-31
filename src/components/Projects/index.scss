@@ -1,7 +1,7 @@
 h1{
     color: white;
     margin-left: 150px;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 5.5rem;
 }
 h2{
@@ -25,6 +25,10 @@ p{
         text-decoration: none;
         color: white;
     }
+    img{
+        width: 100%;
+        max-width: 600px;
+    }
 }
 .projectsContainer{
     animation: fadeIn 2s 1s backwards;
@@ -33,5 +37,5 @@ p{
 }
 p.subtitle{
     margin-left: 150px;
-    margin-top: -40px;
+    margin-top: -20px;
 }
