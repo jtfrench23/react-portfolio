@@ -5,7 +5,7 @@ import Contact from './components/Contact'
 import Layout from './components/Layouts'
 import Projects from './components/Projects'
 import './App.scss';
-
+import React from 'react';
 function App() {
   return (
     <>

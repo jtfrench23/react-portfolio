@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect} from 'react';
 import Loader from 'react-loaders';
-
+import React from 'react';
 const Home = () => {
     const [letterClass] = useState('text-animate')
     const nameArrayFirst = ['','','J','o','r','d','a','n']

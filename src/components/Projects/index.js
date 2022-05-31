@@ -5,6 +5,7 @@ import {useState} from 'react';
 import SasquatchGif from '../../assets/gifs/Hnet-image.gif'
 import OnTrackGif from '../../assets/gifs/ontrack.gif'
 import NatShop from '../../assets/gifs/natShop.gif'
+import React from 'react';
 
 const Projects = () => {
     const [letterClass] = useState('text-animate')

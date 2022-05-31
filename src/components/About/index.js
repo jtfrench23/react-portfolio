@@ -11,6 +11,7 @@ import Loader from 'react-loaders'
 import AnimatedLetters from '../AnimatedLetters'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './index.scss'
+import React from 'react';
 
 const About = () => {
   const [letterClass] = useState('text-animate')
