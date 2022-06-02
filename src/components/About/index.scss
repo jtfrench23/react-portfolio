@@ -2,6 +2,11 @@
 h1{
   height: 50px;
   width: 300px;
+  display: flex;
+  span{
+    margin-left: -10px;
+    margin-right: 20px;
+  }
 }
 .text-zone{
   display: block;
@@ -99,5 +104,16 @@ h1{
   }
   .stage-cube-cont{
     margin-top: -70px;
+  }
+  .text-zone{
+    margin-left: 45px;
+  }
+  h1{
+    width: 80%;
+    padding: 0px;
+    span{
+      margin-left: -40px;
+      margin-right: 45px;
+    }
   }
 }

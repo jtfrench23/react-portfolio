@@ -36,3 +36,11 @@
     animation: fadeIn 1s forwards;
     animation-delay:1s;
 }
+@media screen and (max-width: 500px) and (min-width: 320px){
+    .tags{
+        margin-left: -50px;
+    }
+    .top-tags{
+        margin-left: -70px;
+    }
+}

@@ -5,49 +5,26 @@
         color: white;
         font-size: 5.5rem;
         margin: 0px;
+        margin-top:-10px;
         font-family: 'Coolvetica';
         font-weight: 400;
-        
-        &::before{
-            content: '<h1>';
-            font-family: "La Belle Aurore", cursive;
-            font-size: 18px;
-            color: red;
-            position: absolute;
-            margin: -20px;
-            margin-left: 15px;
-            opacity: .6;
-            animation: fadeIn 1.5s backwards;
-        }
-        &::after{
-            content:'<h1/>';
-            font-family: "La Belle Aurore", cursive;
-            font-size: 18px;
-            color: red;
-            position: absolute;
-            margin-top: 28px;
-            margin-left: 15px;
-            animation: fadeIn 1.5s backwards;
-            opacity: .6;
-        }
-        img{
-            width: 45px;
-            margin-left: 15px;
-            opacity: 0;
-            height: auto;
-            animation: rotateIn 1s linear both;
-            animation-delay: 1.4s;
-
-        }
+        width: 80%;
+        animation-name: bounceIn;
+        animation-duration: 2s;
+        animation-delay: 1s;
+        animation-fill-mode: backwards;
+        min-width: 5px;
     }
     h2{
         color: #8d8d8d;
         font-weight: 400;
-        font-size: 15px;
+        font-size: 1.5rem;
+        width: 80%;
         font-family: sans-serif;
         margin-top: 200px;
+        padding: 0px;
         letter-spacing: 3px;
-        animation: fadeIn .5s backwards;
+        animation: fadeIn 1s 1s backwards;
     }
     .flat-button{
         color: red;
@@ -82,16 +59,29 @@
     @media screen and (max-width: 500px) and (min-width: 320px){
         .lowerBox{
         position: absolute;
-        bottom: -900%;
+        bottom: -400%;
+        h2{
+            font-size: 10px;
+            width: 50%;
+            margin-left: -5px;
+        }
+        .flat-button{
+            width: 100px;
+            font-size: 10px;
+        }
         }
     }
     @media screen and (max-width: 500px) and (min-width: 320px){
         .text-zone{
-            margin-left: 100px;
+            margin-left: 10px;
             margin-top: 20%;
             transform: translateY(50%);
             width: 90%;
             max-height: 100%;
+            h1{
+                font-size: 20px;
+            }
         }
+        
     }
 }

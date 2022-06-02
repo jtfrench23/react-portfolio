@@ -122,3 +122,16 @@
         }
     }
 }
+@media screen and (max-width: 500px) and (min-width: 320px){
+    .nav-bar{
+        width:40px;
+        nav{
+            height: 50px;
+            margin-top: -350px;
+            margin-bottom: 0px;
+            a{
+                height: 30px;
+            }
+        }
+    }
+}

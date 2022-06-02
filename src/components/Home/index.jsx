@@ -6,10 +6,6 @@ import { useState, useEffect} from 'react';
 import Loader from 'react-loaders';
 import React from 'react';
 const Home = () => {
-    const [letterClass] = useState('text-animate')
-    const nameArrayFirst = ['','Jordan']
-    const nameArray = [<img src={LogoTitle} alt="devleper" />,'rench']
-    const jobArray = ['w','e','b',' ',' ','developer','.']
     useEffect(() => {
         console.log('works')
     })
@@ -19,17 +15,11 @@ const Home = () => {
             <div className='Container home-page'>
                 <div className='text-zone'>
                     <h1>
-                        <span className={letterClass}>H</span>
-                        <span className={`${letterClass} _12`}>i,</span> 
-                        <br /> 
-                        <span className={`${letterClass} _13`}>I</span>
-                        <span className={`${letterClass} _14`}>'m</span>
-
-                        <AnimatedLetters letterClass={letterClass} strArray={nameArrayFirst} idx={15}/>
-                        {/* <img src={LogoTitle} alt="devleper" /> */}
-                        <AnimatedLetters letterClass={letterClass} strArray={nameArray} idx={22}/>
+                        Hi, 
                         <br />
-                        <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={32}/>
+                        I'm Jordan French
+                        <br />
+                        Web Developer
                     </h1>
                     <div className='lowerBox'>
                     <h2>
