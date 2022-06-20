@@ -9,7 +9,7 @@ import React from 'react';
 
 const Sidebar = () => (
     <div className="nav-bar">
-        <Link className="logo" to='/'>
+        <Link className="logo" to='/react-portfolio'>
             <img src={LogoS} alt="logo" />
             <img className="sub-logo" src={LogoSubtitle} alt="French" />
         </Link>
