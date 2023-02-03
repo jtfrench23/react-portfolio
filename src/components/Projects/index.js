@@ -39,7 +39,7 @@ const Projects = () => {
         <div className='projectBox'>
             <h2><a href='https://github.com/jtfrench23/nats_store'>French's Boutique</a></h2>
             <img src={NatShop} alt='gif of French Boutique website'/>
-            <p>This is an ecommerce platform that I created for my wife.  I used the Python/Django stack to build this application.  I utilized bootstrap as well as custom css to make the app responsive and visually appealing.  I was the sole developer for this project.</p>
+            <p>This is an ecommerce platform that I created for my wife.  I used the Python/Django stack to build this application.  I utilized bootstrap as well as custom css to make the app responsive and visually appealing.  This app includes a custom administrative platform and a customer platform.  I was the sole developer for this project.</p>
         </div>
         <div className='projectBox'>
             <h2><a href='http://18.234.207.197'>Sasquatch Sitings</a></h2>
